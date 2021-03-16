@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+/*
+* Define global variables
+*/
+:root{
+    --dark-blue : #1B1E3D;
+    --light-blue : #5396E7;
+    --light-grey: #D6D6D6;
+    --very-light-blue: #EDF4FD;
+    --white : #fff;
+    --black : #000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Start - Footer css*/
+.basic-footer{
+    display: flex;
+    flex-flow: 1;
+    justify-content: center;
+    background-color: var(--dark-blue);
+    color: var(--very-light-blue);
+    padding: 1rem 2rem;
+}
+.basic-footer h4{
+    padding-left: 5px;
+}
+.fa-copyright{
+    padding-top: 1.5px;
+}
+/*END - Footer css*/
