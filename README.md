@@ -21,6 +21,28 @@ Our goal at the end of the project will be to have :
 | Benoit COUSIN     | cousinbenoit@hotmail.fr     |
 | Rémi JOUANNETAUD      |   remijouannetaud10@gmail.com   |
 
+## Tools we are using
+
+#### ClickUp : 
+To manage and monitore the project
+#### Coolors.io :
+Define a color panel
+
+#### Canva : 
+Design a logo
+
+#### Visual Studio Code : 
+IDE
+
+#### Git : 
+Versionning and collaborate in team
+
+#### Discord : 
+Workshops and lives
+
+#### Figma : 
+Page models for mobile and desktop
+
 ## You want to be a part of our project ?
 
 ```
@@ -31,4 +53,3 @@ git push
 
 ```
 One of the collaborators will validate your work if it's okay by comparing and pulling a request.
-
