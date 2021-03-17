@@ -22,8 +22,42 @@
     <!-- Here Carrousel/Hero-->
 
     <!-- Here Events-->
+    <div class="events">
+        <h2>ÉVÈNEMENTS</h2>
+    </div>
 
     <!--Last subscribers-->
+    <div class="susbcribers-last">
+        <div class="subs-top-container">
+            <i class="fa fa-child"></i>
+            <h4>DERNIERS INSCRITS</h4>
+            <div class="line"></div>
+        </div>
+        
+        <div class="subs-all-cards-container">
+            <div class="subs-card">
+                <img src="https://fakeimg.pl/150x150/" alt="Image of the last group who subscribe">
+                <div class="subs-card-right-grid">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit non eius molestias officiis minus aliquid?</p>
+                    <h5>Lire la suite...</h5>
+                </div>
+            </div>
+            <div class="subs-card">
+                <img src="https://fakeimg.pl/150x150/" alt="Image of the last group who subscribe">
+                <div class="subs-card-right-grid">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit non eius molestias officiis minus aliquid?</p>
+                    <h5>Lire la suite...</h5>
+                </div>
+            </div>
+            <div class="subs-card">
+                <img src="https://fakeimg.pl/150x150/" alt="Image of the last group who subscribe">
+                <div class="subs-card-right-grid">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit non eius molestias officiis minus aliquid?</p>
+                    <h5>Lire la suite...</h5>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Post announce or search for a groupe-->
 
