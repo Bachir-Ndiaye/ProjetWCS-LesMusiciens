@@ -38,15 +38,19 @@
 
 /*Start - Events section css*/
 .events{
-    background-color: var(--very-light-blue);
+    background-color: var(--dark-blue);
     text-align: center;
 }
 .events h2{
-    padding: 0.5rem 0.5rem;
+    padding: 1rem 1rem;
+    color: var(--light-blue)
 }
 /*END - Events section css*/
 
 /*Start - Last subscribers*/
+.susbcribers-last{
+    background-color: var(--very-light-blue);
+}
 .subs-top-container{
     padding-bottom: 1rem;
     display: flex;
@@ -59,6 +63,8 @@
     padding-left: 5px;
 }
 .subs-card img{
+    border-radius: 2px;
+    box-shadow: 2px 2px var(--light-blue);
     width: 150px;
     height: 150px;
 }
@@ -67,10 +73,11 @@
 }
 .subs-top-container h4{
     width: 100%;
+    padding-left: 5px;
 }
 .line{
     height: 1px;
-    width: 100%;
+    width: 80%;
     border-bottom: 1px solid var(--dark-blue);
     padding-top: 10px;
 }
@@ -90,8 +97,18 @@
 .susbcribers-last{
     padding: 2rem 0.5rem;
 }
-
-.subs-top-container h4{
-    padding-left: 5px;
-}
 /*END - Last subscribers*/
+
+/*Start - post announce css*/
+.post-announce{
+    padding: 3rem 0rem;
+    width: 100%;
+    text-align: center;
+    background-image: url('../../src/img/bg-announce.jpg');
+    background-position: center;
+}
+.post-announce h5{
+    color: var(--very-light-blue);
+    font-weight: bold;
+}
+/*END - post announce css*/

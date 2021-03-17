@@ -60,6 +60,9 @@
     </div>
 
     <!-- Post announce or search for a groupe-->
+    <div class="post-announce">
+        <h5>Déposer une annonce / Chercher un groupe</h5>
+    </div>
 
     <!--Winner of the week (coup de coeur) -->
 
