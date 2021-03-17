@@ -50,6 +50,10 @@
 }
 /*End - header css*/
 
+
+
+
+
 /*Start - Footer css*/
 .basic-footer{
     display: flex;
@@ -67,7 +71,10 @@
 }
 /*END - Footer css*/
 
-<<<<<<< HEAD
+
+
+
+
 
 /*Start - Events section css*/
 .events{
@@ -79,6 +86,11 @@
     color: var(--light-blue)
 }
 /*END - Events section css*/
+
+
+
+
+
 
 /*Start - Last subscribers*/
 .susbcribers-last{
@@ -132,6 +144,11 @@
 }
 /*END - Last subscribers*/
 
+
+
+
+
+
 /*Start - post announce css*/
 .post-announce{
     padding: 3rem 0rem;
@@ -145,7 +162,10 @@
     font-weight: bold;
 }
 /*END - post announce css*/
-=======
+
+
+
+
 /* start css slider */
 #slider{
     width: 100%;max-width: 960px;overflow: hidden;
@@ -173,4 +193,3 @@
         100% { left: -400%; }
 }
 /* end css slider */
->>>>>>> benoit

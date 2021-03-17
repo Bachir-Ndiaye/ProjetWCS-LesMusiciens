@@ -18,11 +18,8 @@
 </head>
 <body>
     <!--Here header.php-->
-<<<<<<< HEAD
     <?php require './src/php/header.php'; ?>
     <!-- Here Carrousel/Hero-->
-=======
-
     <!-- Here slider-->
     <div id="slider">
         <figure>
@@ -32,7 +29,6 @@
         </figure>
         </div>
     <!-- slider -->
->>>>>>> benoit
 
     <!-- Here Events-->
     <div class="events">
