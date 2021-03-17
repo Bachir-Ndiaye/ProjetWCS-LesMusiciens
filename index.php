@@ -19,13 +19,63 @@
 <body>
     <!--Here header.php-->
     <?php require './src/php/header.php'; ?>
+
     <!-- Here Carrousel/Hero-->
 
+    <!-- Here slider-->
+    <div id="slider">
+        <figure>
+            <img src="https://cdn.pixabay.com/photo/2018/06/30/09/29/music-3507317_960_720.jpg"/>
+            <img src="https://cdn.pixabay.com/photo/2015/05/07/11/02/guitar-756326_960_720.jpg"/>
+            <img src="https://cdn.pixabay.com/photo/2017/06/06/22/58/face-2378774_960_720.jpg"/>
+            <img src="https://cdn.pixabay.com/photo/2018/06/17/10/38/artist-3480274_960_720.jpg"/>
+            <img src="https://cdn.pixabay.com/photo/2016/07/20/22/15/crowd-1531431_960_720.jpg"/>
+        </figure>
+        </div>
+    <!-- slider -->
+
     <!-- Here Events-->
+    <div class="events">
+        <h2>ÉVÈNEMENTS</h2>
+    </div>
 
     <!--Last subscribers-->
+    <div class="susbcribers-last">
+        <div class="subs-top-container">
+            <i class="fa fa-child"></i>
+            <h4>DERNIERS INSCRITS</h4>
+            <div class="line"></div>
+        </div>
+        
+        <div class="subs-all-cards-container">
+            <div class="subs-card">
+                <img src="https://fakeimg.pl/150x150/" alt="Image of the last group who subscribe">
+                <div class="subs-card-right-grid">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit non eius molestias officiis minus aliquid?</p>
+                    <h5>Lire la suite...</h5>
+                </div>
+            </div>
+            <div class="subs-card">
+                <img src="https://fakeimg.pl/150x150/" alt="Image of the last group who subscribe">
+                <div class="subs-card-right-grid">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit non eius molestias officiis minus aliquid?</p>
+                    <h5>Lire la suite...</h5>
+                </div>
+            </div>
+            <div class="subs-card">
+                <img src="https://fakeimg.pl/150x150/" alt="Image of the last group who subscribe">
+                <div class="subs-card-right-grid">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit non eius molestias officiis minus aliquid?</p>
+                    <h5>Lire la suite...</h5>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Post announce or search for a groupe-->
+    <div class="post-announce">
+        <h5>Déposer une annonce / Chercher un groupe</h5>
+    </div>
 
     <!--Winner of the week (coup de coeur) -->
     <div class="star">
