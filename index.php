@@ -18,7 +18,7 @@
 </head>
 <body>
     <!--Here header.php-->
-
+    <?php require './src/php/header.php'; ?>
     <!-- Here Carrousel/Hero-->
 
     <!-- Here Events-->

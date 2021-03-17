@@ -17,6 +17,38 @@
     padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
+/*Start - header css*/
+.menu {
+    display: none;
+}
+
+.menu-checkbox:checked ~ .menu {
+    display: block;
+}
+
+
+.menu-checkbox {
+	opacity: 0;
+	position: absolute;
+	top: -1000px;
+}
+
+.menu-checkbox:focus + .menu-toggle {
+    outline: #5396E7 auto 5px;
+}
+
+.menu-toggle {
+    padding: .5em 1em;
+}
+
+
+.nav-wrapper {
+    align-items: center;
+    display: flex;
+    
+   justify-content: space-between;
+}
+/*End - header css*/
 
 /*Start - Footer css*/
 .basic-footer{
