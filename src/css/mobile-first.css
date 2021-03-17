@@ -66,3 +66,81 @@
     padding-top: 1.5px;
 }
 /*END - Footer css*/
+
+
+/*Start - Events section css*/
+.events{
+    background-color: var(--dark-blue);
+    text-align: center;
+}
+.events h2{
+    padding: 1rem 1rem;
+    color: var(--light-blue)
+}
+/*END - Events section css*/
+
+/*Start - Last subscribers*/
+.susbcribers-last{
+    background-color: var(--very-light-blue);
+}
+.subs-top-container{
+    padding-bottom: 1rem;
+    display: flex;
+}
+.subs-card{
+    padding: 0.5rem 0rem;
+    display: flex;
+}
+.subs-card p{
+    padding-left: 5px;
+}
+.subs-card img{
+    border-radius: 2px;
+    box-shadow: 2px 2px var(--light-blue);
+    width: 150px;
+    height: 150px;
+}
+.subs-card-right-grid{
+    display: grid
+}
+.subs-top-container h4{
+    width: 100%;
+    padding-left: 5px;
+}
+.line{
+    height: 1px;
+    width: 80%;
+    border-bottom: 1px solid var(--dark-blue);
+    padding-top: 10px;
+}
+.subs-all-cards-container{
+    display: grid;
+}
+.subs-card-right-grid h5{
+    width: max-content;
+    height: max-content;
+    margin: 0 auto;
+    padding: 0.25rem 0.5rem;
+    background-color: var(--dark-blue);
+    border-radius: 5px;
+    text-align: center;
+    color: var(--very-light-blue);
+}
+.susbcribers-last{
+    padding: 2rem 0.5rem;
+}
+/*END - Last subscribers*/
+
+/*Start - post announce css*/
+.post-announce{
+    padding: 3rem 0rem;
+    width: 100%;
+    text-align: center;
+    background-image: url('../../src/img/bg-announce.jpg');
+    background-position: center;
+}
+.post-announce h5{
+    color: var(--very-light-blue);
+    font-weight: bold;
+}
+/*END - post announce css*/
