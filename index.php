@@ -52,21 +52,21 @@
                 <img src="https://fakeimg.pl/150x150/" alt="Image of the last group who subscribe">
                 <div class="subs-card-right-grid">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit non eius molestias officiis minus aliquid?</p>
-                    <h5>Lire la suite...</h5>
+                    <h5>Voir groupe</h5>
                 </div>
             </div>
             <div class="subs-card">
                 <img src="https://fakeimg.pl/150x150/" alt="Image of the last group who subscribe">
                 <div class="subs-card-right-grid">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit non eius molestias officiis minus aliquid?</p>
-                    <h5>Lire la suite...</h5>
+                    <h5>Voir groupe</h5>
                 </div>
             </div>
             <div class="subs-card">
                 <img src="https://fakeimg.pl/150x150/" alt="Image of the last group who subscribe">
                 <div class="subs-card-right-grid">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit non eius molestias officiis minus aliquid?</p>
-                    <h5>Lire la suite...</h5>
+                    <h5>Voir groupe</h5>
                 </div>
             </div>
         </div>
@@ -80,6 +80,23 @@
     <!--Winner of the week (coup de coeur) -->
 
     <!--Clients comments about musicians-->
+    <div class="testimonials">
+        <div class="card-testimonial">
+            <img src="https://fakeimg.pl/50x50/">
+            <p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias maxime ulla. <i class="fa fa-quote-right"></i></p>
+        </div>
+        <div class="card-testimonial ">
+            <p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias maxime ulla. <i class="fa fa-quote-right"></i></p>
+            <img src="https://fakeimg.pl/50x50/">
+        </div>
+
+        <div class="card-testimonial">
+            <img src="https://fakeimg.pl/50x50/">
+            <p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias maxime ulla. <i class="fa fa-quote-right"></i></p>
+        </div>
+    </div>
+
+    
     
     <!--FOOTER-->
     <?php require './src/php/footer.php'; ?>

@@ -18,46 +18,43 @@
     font-family: 'Montserrat', sans-serif;
 }
 /*Start - header css*/
-
-.menu li{
-    border: 1px solid var(--light-grey);
-    text-align: center;
-    list-style: none;
-    margin: 20px 5px;
-}
-.menu li a{
-    min-width: 156px;
-    text-decoration: none;
-    color: var(--white);
-}
-header{
-    background-color: var(--dark-blue);
-}
 .menu {
-    display: none;
-}
-.menu-checkbox:checked ~ .menu {
-    display: block;
-}
-.menu-checkbox {
-	opacity: 0;
-	position: absolute;
-	
-}
-
-.menu-checkbox:focus + .menu-toggle {
-    outline: #5396E7 auto 5px;
+    /*display: none;*/
 }
 
 .menu-toggle {
+    font-size: 2.5rem;
+    color: var(--light-blue);
     padding: .5em 1em;
 }
-
-.nav-wrapper {
-    align-items: center;
+header{
+    background-color: var(--dark-blue);
+    height: 80px;
     display: flex;
     justify-content: space-between;
 }
+nav{
+
+    height: 80px;
+    width: 100%;
+    
+}
+.list-nav li a{
+    color: var(--white);
+    text-decoration: none;
+}
+.list-nav{
+    list-style-type: none;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    width: auto;
+    height: 80px;
+}
+
 /*End - header css*/
 
 /*Start - Footer css*/
@@ -130,7 +127,7 @@ header{
     width: max-content;
     height: max-content;
     margin: 0 auto;
-    padding: 0.25rem 0.5rem;
+    padding: 0.30rem 0.6rem;
     background-color: var(--dark-blue);
     border-radius: 5px;
     text-align: center;
@@ -182,3 +179,28 @@ header{
         100% { left: -300%; }
 }
 /* end css slider */
+
+
+/*Start - Testimonials css*/
+.testimonials{
+    padding: 2.5rem 0rem;
+    background-color: var(--very-light-blue);
+}
+    
+.card-testimonial{
+    padding: 1rem 0rem;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.card-testimonial p{
+    padding-left: 1rem;
+    text-align: center;
+}
+.card-testimonial img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+/*END - Testimonials css*/
