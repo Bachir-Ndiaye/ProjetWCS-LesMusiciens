@@ -82,15 +82,11 @@ header{
 }
 /*END - Footer css*/
 
-
-
-
-
-
 /*Start - Events section css*/
 .events{
     background-color: var(--dark-blue);
     text-align: center;
+    margin: -1px;;
 }
 .events h2{
     padding: 1rem 1rem;
@@ -155,11 +151,6 @@ header{
 }
 /*END - Last subscribers*/
 
-
-
-
-
-
 /*Start - post announce css*/
 .post-announce{
     padding: 3rem 0rem;
@@ -174,16 +165,13 @@ header{
 }
 /*END - post announce css*/
 
-
-
-
 /* start css slider */
 #slider{
-    width: 100%;max-width: 960px;overflow: hidden;
+    width: 100%;max-width:100vh;overflow: hidden;background-color: #1B1E3D ;margin-right: 0;
 }
 #slider figure {
     position: relative; 
-    width: 500%;
+    width:500%;
     margin: 0;
     padding: 0;
     font-size: 0;
@@ -201,6 +189,6 @@ header{
         70% { left: -200%; }
         75% { left: -300%; }
         95% { left: -300%; }
-        100% { left: -400%; }
+        100% { left: -300%; }
 }
 /* end css slider */
