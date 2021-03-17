@@ -18,46 +18,6 @@
     font-family: 'Montserrat', sans-serif;
 }
 /*Start - header css*/
-
-.menu li{
-    border: 1px solid var(--light-grey);
-    text-align: center;
-    list-style: none;
-    margin: 20px 5px;
-}
-.menu li a{
-    min-width: 156px;
-    text-decoration: none;
-    color: var(--white);
-}
-header{
-    background-color: var(--dark-blue);
-}
-.menu {
-    display: none;
-}
-.menu-checkbox:checked ~ .menu {
-    display: block;
-}
-.menu-checkbox {
-	opacity: 0;
-	position: absolute;
-	
-}
-
-.menu-checkbox:focus + .menu-toggle {
-    outline: #5396E7 auto 5px;
-}
-
-.menu-toggle {
-    padding: .5em 1em;
-}
-
-.nav-wrapper {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-}
 /*End - header css*/
 
 /*Start - Footer css*/
@@ -76,6 +36,20 @@ header{
     padding-top: 1.5px;
 }
 /*END - Footer css*/
+
+
+/* coup de coeur start*/
+.coeur{
+    display: flex;
+    justify-content: center;
+
+}
+
+.coeur h2 {
+    padding-right: 20px;
+}
+
+/* coup de coeur END*/
 
 /*Start - Events section css*/
 .events{
@@ -182,3 +156,4 @@ header{
         100% { left: -300%; }
 }
 /* end css slider */
+

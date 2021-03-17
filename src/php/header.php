@@ -1,3 +1,4 @@
+
 <header class="main-header">
     <nav class="main-navigation">
         <div class="nav-wrapper">
@@ -14,22 +15,3 @@
     </nav>
 </header>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</header>
