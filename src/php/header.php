@@ -16,15 +16,15 @@
     <ul class="menu">
             
         
-            <li><a href="">Nos musiciens</a></li>
-            <li><a href="">Blog </a></li>
-            <li><a href="">Qui somme nous ?</a></li>
-            <li><a href="">Rejoignez nous</a></li>
+            <li><a href="#">Nos musiciens</a></li>
+            <li><a href="#">Blog </a></li>
+            <li><a href="#">Qui somme nous ?</a></li>
+            <li><a href="#">Rejoignez nous</a></li>
         </ul>
     </div> 
 </nav>
 
-
+</header>
 
 
 

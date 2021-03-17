@@ -18,7 +18,17 @@
     font-family: 'Montserrat', sans-serif;
 }
 /*Start - header css*/
-.menu {
+
+ul li {
+    list-style: none;
+    text-decoration: none;
+    color: var(--white);
+  }
+ 
+
+  }
+
+  .menu {
     display: none;
 }
 
@@ -30,7 +40,7 @@
 .menu-checkbox {
 	opacity: 0;
 	position: absolute;
-	top: -1000px;
+	top: 50px;
 }
 
 .menu-checkbox:focus + .menu-toggle {
@@ -66,3 +76,19 @@
     padding-top: 1.5px;
 }
 /*END - Footer css*/
+
+/* coup de coeur start*/
+.coeur{
+    display: flex;
+    justify-content: center;
+
+}
+
+.coeur h2 {
+    padding-right: 20px;
+}
+
+
+
+
+/* coup de coeur END*/
