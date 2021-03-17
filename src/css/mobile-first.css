@@ -42,7 +42,7 @@ header{
 .menu-checkbox {
 	opacity: 0;
 	position: absolute;
-	top: -1000px;
+	
 }
 
 .menu-checkbox:focus + .menu-toggle {
@@ -54,16 +54,11 @@ header{
 }
 
 .nav-wrapper {
-    width: auto;
     align-items: center;
     display: flex;
     justify-content: space-between;
 }
 /*End - header css*/
-
-
-
-
 
 /*Start - Footer css*/
 .basic-footer{
@@ -93,11 +88,6 @@ header{
     color: var(--light-blue)
 }
 /*END - Events section css*/
-
-
-
-
-
 
 /*Start - Last subscribers*/
 .susbcribers-last{
