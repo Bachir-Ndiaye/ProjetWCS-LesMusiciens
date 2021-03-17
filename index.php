@@ -19,8 +19,8 @@
 <body>
     <!--Here header.php-->
     <?php require './src/php/header.php'; ?>
+    
     <!-- Here Carrousel/Hero-->
-    <!-- Here slider-->
     <div id="slider">
         <figure>
             <img src="https://cdn.pixabay.com/photo/2018/06/30/09/29/music-3507317_960_720.jpg"/>

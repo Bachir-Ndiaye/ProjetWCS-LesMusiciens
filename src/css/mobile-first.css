@@ -18,15 +18,27 @@
     font-family: 'Montserrat', sans-serif;
 }
 /*Start - header css*/
+
+.menu li{
+    border: 1px solid var(--light-grey);
+    text-align: center;
+    list-style: none;
+    margin: 20px 5px;
+}
+.menu li a{
+    min-width: 156px;
+    text-decoration: none;
+    color: var(--white);
+}
+header{
+    background-color: var(--dark-blue);
+}
 .menu {
     display: none;
 }
-
 .menu-checkbox:checked ~ .menu {
     display: block;
 }
-
-
 .menu-checkbox {
 	opacity: 0;
 	position: absolute;
@@ -41,12 +53,11 @@
     padding: .5em 1em;
 }
 
-
 .nav-wrapper {
+    width: auto;
     align-items: center;
     display: flex;
-    
-   justify-content: space-between;
+    justify-content: space-between;
 }
 /*End - header css*/
 
