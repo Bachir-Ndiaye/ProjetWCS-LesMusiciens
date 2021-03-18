@@ -15,13 +15,13 @@
 
     <!--Page title-->
     <title>Acceuil - findXlyon </title>
+   
 </head>
 <body>
     <!--Here header.php-->
-    <?php require './src/php/header.php'; ?>
-
-    <!-- Here Carrousel/Hero-->
-
+    <?php require './src/php/header.php' ; ?>
+    
+    
     <!-- Here slider-->
     <div id="slider">
         <figure>
@@ -116,5 +116,7 @@
 
     <!--FOOTER-->
     <?php require './src/php/footer.php'; ?>
+    
+    
 </body>
 </html>
