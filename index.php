@@ -78,9 +78,33 @@
     </div>
 
     <!--Winner of the week (coup de coeur) -->
+    <div class="star">
+      
+   <div class="coeur">
+     <h2>Coup De Coeur</h2>
+    
+    
+    <i class="fa fa-star-o"></i>
+      <i class="fa fa-star-o" style="font-size:24px"></i>
+      <i class="fa fa-star-o" style="font-size:36px;color:#1B1E3D"></i>
+      
+
+   </div>
+
+        
+
+      <button style="font-size:24px">Votez<i class="fa fa-star-o"></i></button>
+   
+     </div>
+
+
 
     <!--Clients comments about musicians-->
+<<<<<<< HEAD
     <script src="./src/js/header.js"></script>
+=======
+     
+>>>>>>> 5622c6ccf6618b9f002616d60f2603941b08d81e
     <!--FOOTER-->
     <?php require './src/php/footer.php'; ?>
     

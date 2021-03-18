@@ -19,6 +19,7 @@ body{
     --black : #000;
 }
 
+<<<<<<< HEAD
 
 /*Start - header css*/
 nav{
@@ -88,6 +89,14 @@ nav{
 
 
 
+=======
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+/*Start - header css*/
+>>>>>>> 5622c6ccf6618b9f002616d60f2603941b08d81e
 /*End - header css*/
 
 /*Start - Footer css*/
@@ -106,6 +115,20 @@ nav{
     padding-top: 1.5px;
 }
 /*END - Footer css*/
+
+
+/* coup de coeur start*/
+.coeur{
+    display: flex;
+    justify-content: center;
+
+}
+
+.coeur h2 {
+    padding-right: 20px;
+}
+
+/* coup de coeur END*/
 
 /*Start - Events section css*/
 .events{
@@ -217,3 +240,4 @@ nav{
         100% { left: -300%; }
 }
 /* end css slider */
+
