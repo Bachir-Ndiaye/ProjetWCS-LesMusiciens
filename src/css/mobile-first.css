@@ -1,8 +1,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-/*
-* Define global variables
-*/
+
+*, ::before, ::after{
+box-sizing: border-box;
+margin:0;
+padding:0;
+}
+body{
+    font-family: sans-serif;
+}
+
 :root{
     --dark-blue : #1B1E3D;
     --light-blue : #5396E7;
@@ -12,52 +19,75 @@
     --black : #000;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
-}
+
 /*Start - header css*/
-
-.menu li{
-    border: 1px solid var(--light-grey);
-    text-align: center;
-    list-style: none;
-    margin: 20px 5px;
+nav{
+    position: fixed;
+    height: 80px;
+    width:100%;
+    background: #1B1E3D;
+    z-index: 300;
+    margin:0;
+    padding: 0;
 }
-.menu li a{
-    min-width: 156px;
+.logo-menu {
+    position: fixed;
+    top:10px;
+    right:15px;
+    width: 50px;
+    z-index:400;
+    display:none;
+}
+.liste-nav{
+    position:fixed;
+    background: #1B1E3D;
+    height: 80px;
+    width: 100%;
+    justify-content: center;
+    z-index:100;
+    display: inline-flex;
+    list-style-type: none;
+    
+}
+.item nav {
+    display:block;
+    
+}
+.item-nav a{
+    
+    margin-left: 30%;
+    color:var(--light-grey);
     text-decoration: none;
-    color: var(--white);
+    padding-top: 30px;
+     
+    }
+
+
+@media screen and (max-width: 700px)
+{
+.logo-menu{ 
+    display:block;}
+.liste-nav{
+    display:none;
+    flex-direction: column;
+    height:auto;}
 }
-header{
-    background-color: var(--dark-blue);
-}
-.menu {
-    display: none;
-}
-.menu-checkbox:checked ~ .menu {
+
+.liste-nav.active{
     display: block;
-}
-.menu-checkbox {
-	opacity: 0;
-	position: absolute;
-	
+    align-items:center;
+    justify-content: center;}
+
+.item-nav{
+        height :70px;
+         }
+
+.item-nav:nth-child(1){
+    margin-top:80px ;
 }
 
-.menu-checkbox:focus + .menu-toggle {
-    outline: #5396E7 auto 5px;
-}
 
-.menu-toggle {
-    padding: .5em 1em;
-}
 
-.nav-wrapper {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-}
 /*End - header css*/
 
 /*Start - Footer css*/
@@ -157,7 +187,12 @@ header{
 
 /* start css slider */
 #slider{
-    width: 100%;max-width:100vh;overflow: hidden;background-color: #1B1E3D ;margin-right: 0;
+    width: 100%;
+    max-width:100vh;
+    overflow: hidden;
+    background-color: #1B1E3D ;
+    margin-right: 0;
+    padding-top: 80px;
 }
 #slider figure {
     position: relative; 
