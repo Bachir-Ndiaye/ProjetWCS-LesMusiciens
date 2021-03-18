@@ -25,11 +25,10 @@
     <!-- Here slider-->
     <div id="slider">
         <figure>
-            <img src="https://cdn.pixabay.com/photo/2018/06/30/09/29/music-3507317_960_720.jpg"/>
-            <img src="https://cdn.pixabay.com/photo/2015/05/07/11/02/guitar-756326_960_720.jpg"/>
-            <img src="https://cdn.pixabay.com/photo/2017/06/06/22/58/face-2378774_960_720.jpg"/>
-            <img src="https://cdn.pixabay.com/photo/2018/06/17/10/38/artist-3480274_960_720.jpg"/>
-            <img src="https://cdn.pixabay.com/photo/2016/07/20/22/15/crowd-1531431_960_720.jpg"/>
+            <img src="./src/img/acceuil.jpg"/>
+            <img src="./src/img/acceuil1.jpg"/>
+            <img src="./src/img/acceuil3.jpg"/>
+            <img src="./src/img/acceuil2.jpg"/>
         </figure>
         </div>
     <!-- slider -->
@@ -115,6 +114,7 @@
     </div>
 
     <!--FOOTER-->
+    <script type="text/javascript" src="./src/js/header.js"></script>
     <?php require './src/php/footer.php'; ?>
     
     

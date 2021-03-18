@@ -8,7 +8,7 @@ margin:0;
 padding:0;
 }
 body{
-    font-family: sans-serif;
+    font-family: 'Montserrat' 'sans-serif';
 }
 
 :root{
@@ -49,17 +49,14 @@ nav{
     list-style-type: none;
     
 }
-.item nav {
-    display:block;
-    
-}
+
 .item-nav a{
-    
+    display:block;
     margin-left: 30%;
     color:var(--light-grey);
     text-decoration: none;
-    padding-top: 30px;
-     
+    padding-top: 20px;
+    
     }
 
 
@@ -76,8 +73,10 @@ nav{
 .liste-nav.active{
     display: block;
     align-items:center;
-    justify-content: center;}
-
+    justify-content: space-around;
+    height: 100vh;
+}
+    
 .item-nav{
         height :70px;
          }
@@ -86,11 +85,6 @@ nav{
     margin-top:80px ;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
-}
 
 /*End - header css*/
 
@@ -255,11 +249,10 @@ nav{
 /* start css slider */
 #slider{
     width: 100%;
-    max-width:100vh;
     overflow: hidden;
     background-color: #1B1E3D ;
-    margin-right: 0;
     padding-top: 80px;
+    
 }
 #slider figure {
     position: relative; 
