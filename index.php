@@ -43,8 +43,7 @@
     <div class="susbcribers-last">
         <div class="subs-top-container">
             <i class="fa fa-child"></i>
-            <h4>DERNIERS INSCRITS</h4>
-            <div class="line"></div>
+            <h4> NOS DERNIERS INSCRITS</h4>
         </div>
         
         <div class="subs-all-cards-container">
@@ -78,6 +77,25 @@
     </div>
 
     <!--Winner of the week (coup de coeur) -->
+    <div class="star">
+        <div class="coeur">
+            <h2>Coup De Coeur</h2>    
+            <div class="fa-centered">
+                <i class="fa fa-heart fa-vlb"></i>
+                <i class="fa fa-heart fa-lb" style="font-size:24px"></i>
+                <i class="fa fa-heart fa-b" style="font-size:36px;color:#1B1E3D"></i>
+            </div>
+        </div>
+        <div class="imgs-versus">
+            <img class="img-v1" src="https://fakeimg.pl/125x125/" alt="Coup de coeur numero 1">
+            <h3>VS</h3>
+            <img class="img-v2" src="https://fakeimg.pl/125x125/" alt="Coup de coeur numero 2">
+        </div>
+        <div class="star-btn">
+            <button style="font-size:24px">Votez <i class="fa fa-star"></i></button>
+        </div>
+   
+    </div>
 
     <!--Clients comments about musicians-->
     <div class="testimonials">
@@ -85,7 +103,7 @@
             <img src="https://fakeimg.pl/50x50/">
             <p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias maxime ulla. <i class="fa fa-quote-right"></i></p>
         </div>
-        <div class="card-testimonial ">
+        <div class="card-testimonial ct-right">
             <p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias maxime ulla. <i class="fa fa-quote-right"></i></p>
             <img src="https://fakeimg.pl/50x50/">
         </div>
@@ -96,8 +114,6 @@
         </div>
     </div>
 
-    
-    
     <!--FOOTER-->
     <?php require './src/php/footer.php'; ?>
 </body>

@@ -1,4 +1,5 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 /*
 * Define global variables
@@ -18,9 +19,6 @@
     font-family: 'Montserrat', sans-serif;
 }
 /*Start - header css*/
-.menu {
-    /*display: none;*/
-}
 
 .menu-toggle {
     font-size: 2.5rem;
@@ -74,6 +72,73 @@ nav{
 }
 /*END - Footer css*/
 
+
+/* coup de coeur start*/
+.coeur{
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.fa-star{
+    color: var(--dark-blue);
+}
+.star-btn{
+    display:flex;
+    justify-content: center;
+}
+.star{
+    padding: 2rem 0rem;
+}
+.star button{
+    text-align: center;
+}
+.coeur h2 {
+    padding-top: 5px;
+    padding-right: 20px;
+}
+.fa-heart{
+    align-items: center;
+}
+.fa-vlb{
+    color: var(--very-light-blue);
+}
+.fa-lb{
+    color: var(--light-blue);
+}
+.fa-b{
+    color: var(--dark-blue);
+}
+.imgs-versus{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.imgs-versus img{
+    border: 5px;
+}
+.imgs-versus h3{
+    margin-top: 1.5rem;
+    color: var(--very-light-blue);
+    background-color: var(--black);
+    height: max-content;
+    padding: 25px 25px;
+    border-radius: 50%;
+    font-family: 'Press Start 2P', cursive;
+    z-index: 2;
+}
+.img-v1{
+    margin-right: -2.8rem;
+    border-top-left-radius: 5px 5px;
+    border-bottom-left-radius: 5px 5px;
+}
+.img-v2{
+    margin-left: -2.8rem;
+    border: 1px solid black;
+    border-top-right-radius: 5px 5px;
+    border-bottom-right-radius: 5px 5px;
+}
+/* coup de coeur END*/
+
 /*Start - Events section css*/
 .events{
     background-color: var(--dark-blue);
@@ -113,13 +178,9 @@ nav{
 .subs-top-container h4{
     width: 100%;
     padding-left: 5px;
+    font-weight: bold;
 }
-.line{
-    height: 1px;
-    width: 80%;
-    border-bottom: 1px solid var(--dark-blue);
-    padding-top: 10px;
-}
+
 .subs-all-cards-container{
     display: grid;
 }
@@ -193,7 +254,9 @@ nav{
     margin: 0 auto;
     display: flex;
 }
-
+.ct-right p{
+padding-right: 1rem;;
+}
 .card-testimonial p{
     padding-left: 1rem;
     text-align: center;
