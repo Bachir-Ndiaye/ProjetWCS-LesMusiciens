@@ -116,7 +116,7 @@
     <!--FOOTER-->
     <script type="text/javascript" src="./src/js/header.js"></script>
     <?php require './src/php/footer.php'; ?>
-    
+    <script src="./src/js/header.js"></script>
     
 </body>
 </html>
