@@ -1,8 +1,16 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-/*
-* Define global variables
-*/
+
+*, ::before, ::after{
+box-sizing: border-box;
+margin:0;
+padding:0;
+}
+body{
+    font-family: 'Montserrat' 'sans-serif';
+}
+
 :root{
     --dark-blue : #1B1E3D;
     --light-blue : #5396E7;
@@ -11,13 +19,67 @@
     --white : #fff;
     --black : #000;
 }
-
 *{
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
+
 /*Start - header css*/
+.w-logo{
+    height: 80px;
+    width: 80px;
+    z-index: 400;
+}
+nav{
+    position: fixed;
+    width:100%;
+    background: #1B1E3D;
+    z-index: 300;
+    margin:0;
+    padding: 0;
+}
+.logo-menu {
+    position: fixed;
+    top:10px;
+    right:15px;
+    width: 50px;
+    z-index:400;
+    display:none;
+}
+.liste-nav{
+    position:fixed;
+    background: #1B1E3D;
+    height: 80px;
+    width: 100%;
+    justify-content: center;
+    z-index:100;
+    display: inline-flex;
+    list-style-type: none;
+    
+}
+.item-nav {
+    text-align: center;
+}
+.item-nav a{
+    font-size: xx-large;
+    color:var(--light-grey);
+    text-decoration: none;
+    }
+
+.item-nav{
+    padding: 3rem 0rem;
+}
+.liste-nav.active{
+    height: 100vh;
+    display: block;
+    align-items:center;
+    justify-content: center;
+}
+
+.item-nav:nth-child(1){
+    margin-top: 50px ;
+}
 /*End - header css*/
 
 /*Start - Footer css*/
@@ -40,15 +102,68 @@
 
 /* coup de coeur start*/
 .coeur{
+    padding-bottom: 2rem;
     display: flex;
     justify-content: center;
-
 }
-
+.fa-star{
+    color: var(--dark-blue);
+}
+.star-btn{
+    display:flex;
+    justify-content: center;
+}
+.star{
+    padding: 2rem 0rem;
+}
+.star button{
+    text-align: center;
+}
 .coeur h2 {
+    padding-top: 5px;
     padding-right: 20px;
 }
-
+.fa-heart{
+    align-items: center;
+}
+.fa-vlb{
+    color: var(--very-light-blue);
+}
+.fa-lb{
+    color: var(--light-blue);
+}
+.fa-b{
+    color: var(--dark-blue);
+}
+.imgs-versus{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.imgs-versus img{
+    border: 5px;
+}
+.imgs-versus h3{
+    margin-top: 1.5rem;
+    color: var(--very-light-blue);
+    background-color: var(--black);
+    height: max-content;
+    padding: 25px 25px;
+    border-radius: 50%;
+    font-family: 'Press Start 2P', cursive;
+    z-index: 2;
+}
+.img-v1{
+    margin-right: -2.8rem;
+    border-top-left-radius: 5px 5px;
+    border-bottom-left-radius: 5px 5px;
+}
+.img-v2{
+    margin-left: -2.8rem;
+    border: 1px solid black;
+    border-top-right-radius: 5px 5px;
+    border-bottom-right-radius: 5px 5px;
+}
 /* coup de coeur END*/
 
 /*Start - Events section css*/
@@ -76,7 +191,7 @@
     display: flex;
 }
 .subs-card p{
-    padding-left: 5px;
+    padding-left: 1rem;
 }
 .subs-card img{
     border-radius: 2px;
@@ -85,26 +200,22 @@
     height: 150px;
 }
 .subs-card-right-grid{
-    display: grid
+    display: grid;
+    height: 150px;
+    grid-gap: 3rem;
 }
 .subs-top-container h4{
     width: 100%;
     padding-left: 5px;
+    font-weight: bold;
 }
-.line{
-    height: 1px;
-    width: 80%;
-    border-bottom: 1px solid var(--dark-blue);
-    padding-top: 10px;
-}
-.subs-all-cards-container{
-    display: grid;
-}
+
+
 .subs-card-right-grid h5{
     width: max-content;
     height: max-content;
     margin: 0 auto;
-    padding: 0.25rem 0.5rem;
+    padding: 0.30rem 0.6rem;
     background-color: var(--dark-blue);
     border-radius: 5px;
     text-align: center;
@@ -131,7 +242,11 @@
 
 /* start css slider */
 #slider{
-    width: 100%;max-width:100vh;overflow: hidden;background-color: #1B1E3D ;margin-right: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: #1B1E3D ;
+    padding-top: 80px;
+    
 }
 #slider figure {
     position: relative; 
@@ -157,6 +272,7 @@
 }
 /* end css slider */
 
+<<<<<<< HEAD
 /*start blog css */
 h2 {
     color: #1B1E3D;
@@ -170,3 +286,62 @@ display: inline-block;
     float: right
 }
 /*END blog css */
+=======
+
+/*Start - Testimonials css*/
+.testimonials{
+    padding: 2.5rem 0rem;
+    background-color: var(--very-light-blue);
+}
+    
+.card-testimonial{
+    padding: 1rem 0rem;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+.ct-right p{
+padding-right: 1rem;;
+}
+.card-testimonial p{
+    padding-left: 1rem;
+    text-align: center;
+}
+.card-testimonial img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+/*END - Testimonials css*/
+
+
+/*MEDIA QUARIES PART*/
+@media screen and (max-width: 700px){
+    .logo-menu{ 
+        display:flex;
+    }
+    .liste-nav{
+        display:none;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 700px){
+    nav {
+        display:flex;
+    }
+    .liste-nav {
+        display: flex;
+        align-items: center;
+    }
+  .item-nav a{
+      font-size: x-large;
+  }
+  .item-nav:nth-child(1){
+    margin-top: 0px;
+}
+.item-nav {
+    padding: 0rem 1rem;
+}
+}
+>>>>>>> 8a22c6172022fadfda6205778893ce0733bc874f
