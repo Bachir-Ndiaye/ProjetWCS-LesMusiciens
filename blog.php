@@ -11,14 +11,14 @@
 
     <!--CSS links-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../css/mobile-first.css">
+    <link rel="stylesheet" href="./src/css/mobile-first.css">
 
     <!--Page title-->
     <title>Blog - findXlyon </title>
 </head>
 <body>
    <!--Here header.php-->
-   <?php require 'header.php'; ?>
+   <?php require './src/php/header.php'; ?>
    
 <h2>Blog</h2>
 
@@ -92,6 +92,7 @@
     </div>  
 </div>
 
-<?php require 'footer.php'; ?>
+<?php require './src/php/footer.php'; ?>
+<script type="text/javascript" src="./src/js/header.js"></script>
 </body>
 </html>
