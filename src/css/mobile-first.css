@@ -90,6 +90,8 @@ nav{
     background-color: var(--dark-blue);
     color: var(--very-light-blue);
     padding: 1rem 2rem;
+    position: fixed;bottom: 0;left: 0;right:0;
+
 }
 .basic-footer h4{
     padding-left: 5px;
@@ -151,7 +153,7 @@ nav{
     padding: 25px 25px;
     border-radius: 50%;
     font-family: 'Press Start 2P', cursive;
-    z-index: 2;
+    z-index: 0;
 }
 .img-v1{
     margin-right: -2.8rem;
@@ -241,25 +243,26 @@ nav{
 /*END - post announce css*/
 
 /* start css slider */
-#slider{
-    width: 100%;
-    overflow: hidden;
-    background-color: #1B1E3D ;
-    padding-top: 80px;
-    
-}
-#slider figure {
-    position: relative; 
-    width:500%;
-    margin: 0;
-    padding: 0;
-    font-size: 0;
-    animation: 25s slidy infinite;
-  }
+    #slider
+    {
+        width: 100%;
+        overflow: hidden;
+        background-color: #1B1E3D ;
+        padding-top: 80px;
+    }
+    #slider figure 
+    {
+        position: relative; 
+        width:500%;
+        margin: 0;
+        padding: 0;
+        font-size: 0;
+        animation: 25s slidy infinite;
+    }
   #slider figure img 
-  { width: 20%; height: auto; float: left; 
-}
-     @keyframes slidy {
+  { width: 20%; height: auto; float: left; }
+     @keyframes slidy 
+     {
         0% { left: 0%; }
         20% { left: 0%; }
         25% { left: -100%; }
@@ -269,7 +272,7 @@ nav{
         75% { left: -300%; }
         95% { left: -300%; }
         100% { left: -300%; }
-}
+    }
 /* end css slider */
 
 /*start blog css */
@@ -333,14 +336,16 @@ padding-right: 1rem;;
         display: flex;
         align-items: center;
     }
-  .item-nav a{
+    .item-nav a{
       font-size: x-large;
-  }
-  .item-nav:nth-child(1){
+    }
+    .item-nav:nth-child(1){
     margin-top: 0px;
-}
-.item-nav {
+    }
+    .item-nav {
     padding: 0rem 1rem;
+    }
 }
-}
+/* MEDIA QUARIES END */
 
+/* rejoindre start */ 
