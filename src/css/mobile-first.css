@@ -272,6 +272,20 @@ nav{
 }
 /* end css slider */
 
+/*start blog css */
+h2 {
+    color: #1B1E3D;
+}
+
+.picture-all {
+display: inline-block;
+}
+
+.picture-texte {
+    float: right
+}
+/*END blog css */
+
 
 /*Start - Testimonials css*/
 .testimonials{
@@ -329,3 +343,4 @@ padding-right: 1rem;;
     padding: 0rem 1rem;
 }
 }
+
