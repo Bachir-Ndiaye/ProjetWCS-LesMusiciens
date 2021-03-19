@@ -90,8 +90,15 @@ nav{
     background-color: var(--dark-blue);
     color: var(--very-light-blue);
     padding: 1rem 2rem;
+<<<<<<< HEAD
     position: fixed;bottom: 0;left: 0;right:0;
 
+=======
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;;
+>>>>>>> e8b112b0340d486be1775200c4ff7cd6829e326d
 }
 .basic-footer h4{
     padding-left: 5px;
