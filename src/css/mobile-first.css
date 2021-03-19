@@ -157,3 +157,16 @@
 }
 /* end css slider */
 
+/*start blog css */
+h2 {
+    color: #1B1E3D;
+}
+
+.picture-all {
+display: inline-block;
+}
+
+.picture-texte {
+    float: right
+}
+/*END blog css */

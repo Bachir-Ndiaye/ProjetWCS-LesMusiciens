@@ -7,7 +7,7 @@
 
             <ul class="menu">
                 <li><a href="">Nos musiciens</a></li>
-                <li><a href="./src/php/blog.php">Blog</a></li>
+                <li><a href="blog.php">Blog</a></li>
                 <li><a href="">Qui somme-nous ?</a></li>
                 <li><a href="">Rejoignez-nous</a></li>
             </ul>
