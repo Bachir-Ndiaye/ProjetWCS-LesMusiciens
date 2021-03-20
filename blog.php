@@ -45,7 +45,6 @@
                     <h5>Lire la suite</h5>
                 </div>
             </div>
- 
     </div>  
 
 
@@ -97,6 +96,7 @@
             </div>
     </div>  
 </div>
+
 </div>
 
 <?php require './src/php/footer.php'; ?>
