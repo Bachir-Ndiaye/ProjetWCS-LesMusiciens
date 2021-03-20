@@ -68,7 +68,7 @@ nav{
     }
 
 .item-nav{
-    padding: 3rem 0rem;
+    padding: 2rem 0rem;
 }
 .liste-nav.active{
     height: 100vh;
@@ -317,6 +317,76 @@ padding-right: 1rem;;
 }
 /*END - Testimonials css*/
 
+/*Start Who we are css*/
+.whoweare{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.fa-linkedin, .fa-github{
+    color: var(--dark-blue);
+    padding: 0.5rem 0.30rem;
+}
+.member{
+    margin:auto;
+}
+.member-info{
+    color: var(--light-blue);
+    background: #fff;
+    padding: 1rem 1rem;
+    box-shadow: 0px 2px 15px var(--light-blue);
+    text-align: center;
+    transition: max-height 0.5s ease-in-out;
+    border-radius: 5px;
+}
+.presentation{
+    width: 90%;
+    margin: auto;
+}
+.presentation h2{
+    margin-bottom: 2rem;
+    width: max-content;
+    border-bottom : 5px solid var(--very-light-blue);
+}
+.member-info span{
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    color: var(--light-grey);
+}
+.card-team{
+    margin-top: 3rem;
+    border-radius: 5px;
+    padding: 3rem 2rem;
+    text-align: center;
+    box-shadow: 0px 2px 15px var(--dark-blue);
+}
+.member img {
+    border: 3px solid var(--dark-blue);
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+.social{
+    justify-content: center;
+    display: flex;
+}
+.member-info h4{
+    padding-bottom: 1rem;
+}
+.line{
+    width: 50px;
+    height: 1px; 
+    border: 1px solid var(--light-grey);
+    margin: auto;
+    margin-bottom: 0.5rem;
+}
+.cards-team-all{
+    padding-top: 1rem;
+    display: grid;
+    justify-content: center;
+}
+/*END who we are css*/
 
 /*MEDIA QUARIES PART*/
 @media screen and (max-width: 700px){
