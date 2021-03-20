@@ -20,14 +20,16 @@
    <!--Here header.php-->
    <?php require './src/php/header.php'; ?>
    
+<div class="main">
 <h2>Blog</h2>
 
 <div class="picture-all">
     <div class="picture">  
             <div class="identity-picture-one">
-                <img src="../img/backshot-hipster-posant-guitare-acoustique_181624-30392.jpg" alt="musicien sur la plage">
+                <img src="/src/img/backshot-hipster.jpg" alt="musicien sur la plage">
                 <div class="texte-picture">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quasi vel assumenda quis reiciendis architecto quas eos dignissimos molestias? Commodi laboriosam, error ipsum eum natus praesentium suscipit velit nobis ratione deleniti totam earum eos adipisci atque ea. Quos, et ipsum. </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro facere delectus ad nostrum! Ut dignissimos nisi, dolor, debitis cupiditate expedita saepe quae quaerat ullam tempora explicabo quisquam obcaecati eligendi cumque. Eveniet illum ut animi ad accusantium, voluptatem obcaecati maxime deleniti cupiditate consequatur, excepturi pariatur rerum porro! Dolorem vitae voluptates eum laboriosam magni! Dolores distinctio fuga, a dolorem nam voluptatibus nobis aut rerum, expedita consequatur voluptatem. Labore, praesentium! Adipisci eaque, nam sint ipsum, eius totam ad pariatur tenetur quam atque illum! </p>
+                    <h4>Publié le: 19/11/2020 par </h4>
                     <h5>Lire la suite</h5>
                 </div>
             </div>
@@ -36,22 +38,22 @@
 
     <div class="picture">
             <div class="identity-picture-two">
-                <img src="../img/batteur-professionnel-jouant-batterie-scene-fond-noir-baguettes-look-vintage-vue-dessus-effet-fumee_169016-4681.jpg" alt="batteur ">
+                <img src="/src/img/batteur-professionnel.jpg" alt="batteur ">
                 <div class="texte-picture">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni laboriosam possimus quibusdam! Id voluptatibus quidem perferendis dolorum magni commodi harum odio mollitia sapiente recusandae? Praesentium voluptatibus placeat iure architecto obcaecati id quis at, eveniet, voluptates libero excepturi porro odit similique! </p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis id tempora soluta alias adipisci ex, et, quisquam dolores eveniet doloremque harum dolorem consequuntur non quod nihil provident quas voluptatibus nam nobis dolor labore! Placeat neque, aliquam laborum sequi, repudiandae eveniet quam dolores reprehenderit animi ipsam corporis incidunt? Ea, assumenda tempora architecto, repellendus corrupti possimus culpa placeat cupiditate unde in blanditiis voluptatibus! Minima accusamus doloribus excepturi, ab suscipit totam adipisci exercitationem nulla nisi voluptatum. Praesentium quasi sit voluptate ipsum obcaecati iste! </p>
+                     <h4>Publié le: 1/03/2020 par</h4>
                     <h5>Lire la suite</h5>
                 </div>
             </div>
- 
     </div>  
-
 
 
     <div class="picture">
             <div class="identity-picture-tree">
-                <img src="../img/deux-rappeurs-noirs-assis-marches_266732-13040.jpg" alt="deux rapeur">
+                <img src="/src/img/deux-rappeurs.jpg" alt="deux rapeur">
                 <div class="texte-picture">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error, laborum asperiores at iure adipisci illo delectus ducimus molestiae in doloremque ex rem illum quia commodi, amet dolore optio consequuntur quaerat nisi esse reiciendis! Sapiente iure voluptatem enim repellat voluptas veniam. </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ad reiciendis sunt quae, quo suscipit tempore facilis deserunt ut atque nihil laborum, non exercitationem? Qui architecto perferendis nihil sunt sint commodi vel, dolorum laboriosam nesciunt. Temporibus, eum. Facilis repellat iure quis ad, atque laudantium, cum quisquam necessitatibus maiores odio laborum velit rerum tenetur quam officia, iusto sed vitae. Ut voluptates illo eveniet magni reprehenderit? Illum, odio, atque et, consequuntur quas corrupti quae architecto pariatur molestias facere tempore repellat ducimus eius. </p>
+                    <h4>Publié le: 10/09/2020 par</h4>
                     <h5>Lire la suite</h5>
                 </div>
             </div>
@@ -61,9 +63,10 @@
 
     <div class="picture">
             <div class="identity-picture-four">
-                <img src="../img/fille-punk-vetue-pantalon-cuir-noir-chemise-blanche-guitare-basse-rouge-endroit-abandonne_146538-364.jpg" alt="fille punk">
+                <img src="/src/img/fille-punk-vetue-pantalon-cuir.jpg" alt="fille punk">
                 <div class="texte-picture">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore vero nesciunt rem hic. Nam sapiente quo excepturi blanditiis quia sint quod labore non eius inventore fuga recusandae quibusdam unde ad ipsa repellendus, quos, ab, consequatur totam illum eaque possimus! Eveniet! </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore corporis animi provident laboriosam molestiae. Magnam, ullam debitis unde sunt perspiciatis, laborum ducimus eius quaerat odio aliquam culpa facilis veniam reiciendis dolor dicta impedit ea rem iure numquam distinctio. Voluptates possimus adipisci laboriosam? Ipsam ab, debitis assumenda iste modi saepe aliquid doloribus blanditiis exercitationem, earum reprehenderit est dignissimos sed libero placeat delectus eaque alias laborum ex consequuntur mollitia officia fugiat reiciendis? Sit nobis explicabo, eius iusto id quo mollitia totam ex.</p>
+                    <h4>Publié le: 13/01/2020 par</h4>
                     <h5>Lire la suite</h5>
                 </div>
             </div>
@@ -72,9 +75,10 @@
     
     <div class="picture">
             <div class="identity-picture-five">
-                <img src="../img/musiciens-passionnes-celebrant-journee-du-jazz_23-2148877011.jpg" alt="musicien classic">
+                <img src="/src/img/jeunes-gens-danser.jpg" alt="musicien classic">
                 <div class="texte-picture">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit quibusdam minima labore harum, ratione doloremque. Reprehenderit qui iure rerum vero aspernatur ipsum. Cum qui eum illo fugiat odit odio sint accusamus repellendus iusto dignissimos, perspiciatis aspernatur aut corporis necessitatibus ullam! </p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia consequatur hic est commodi aut ipsum quibusdam corrupti nam quaerat quia dignissimos magnam aspernatur, id, assumenda perferendis saepe voluptas impedit omnis ipsam repudiandae? Tenetur eveniet vel provident temporibus doloribus vero illo, aliquam sit cumque repellat ipsum perspiciatis in expedita enim! Natus cum autem incidunt quo nihil fugit, explicabo aliquam. Fugit deserunt nisi eos omnis reprehenderit, quaerat nulla id quae aperiam at ipsam sit iste soluta vel placeat neque ratione illum officiis!</p>
+                    <h4>Publié le: 14/01/2021 par</h4>
                     <h5>Lire la suite</h5>
                 </div>
             </div>
@@ -83,13 +87,16 @@
 
     <div class="picture">
             <div class="identity-picture-six">
-                <img src="../img/musiciens-rap-hip-hop-scene_79405-7150.jpg" alt="musicien hip hop">
+                <img src="/src/img/musiciens-rap.jpg" alt="musicien hip hop">
                 <div class="texte-picture">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat debitis iure vitae unde quas odit officiis facilis enim laboriosam cumque ab quod explicabo eligendi architecto dicta veniam sunt quisquam laudantium voluptatibus animi, soluta aperiam ut amet consectetur. Dolore, dicta veniam. </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sunt perspiciatis explicabo? Adipisci architecto explicabo praesentium dolorum. Nesciunt enim accusantium ut alias molestias iure maxime deleniti numquam ipsa! Ratione recusandae consequuntur natus assumenda nesciunt nostrum suscipit unde, quaerat possimus vel quia iure dicta qui dolor temporibus reprehenderit voluptate quisquam reiciendis! Deleniti atque unde, vitae ipsum inventore veritatis expedita, voluptatum porro minima culpa nulla impedit animi laborum obcaecati dolore repudiandae ea praesentium adipisci corrupti rem optio. Excepturi fugit cum enim iure? </p>
+                    <h4>Publié le: 17/02/2021 par</h4>
                     <h5>Lire la suite</h5>
                 </div>
             </div>
     </div>  
+</div>
+
 </div>
 
 <?php require './src/php/footer.php'; ?>
