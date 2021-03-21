@@ -302,7 +302,7 @@ nav{
 }
 
 
-img {
+.imgblog {
     width: 50%;
     height: 80%;
     margin: auto;
@@ -373,7 +373,7 @@ padding-right: 1rem;;
     }
 }
 
-}
+
 /* MEDIA QUARIES END */
 
 /* rejoindre start */ 
