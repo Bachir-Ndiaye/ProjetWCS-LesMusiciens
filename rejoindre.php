@@ -25,7 +25,7 @@
 
                 <div class="card__content">
                     <h1 class="card__title">Nos valeurs</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta dolor praesentium at quod autem omnis, amet eaque unde perspiciatis adipisci possimus quam facere illo et quisquam quia earum nesciunt porro.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aliquam possimus, voluptatem dolore quia ratione! Sapiente sint quisquam corporis ipsa?Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta dolor praesentium at quod autem omnis, amet eaque unde perspiciatis adipisci possimus quam facere illo et quisquam quia earum nesciunt porro.</p>
                 </div>
         </div>
 
@@ -42,7 +42,7 @@
 
             <div class="card__content">
                 <h1 class="card__title">Nos projets</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta dolor praesentium at quod autem omnis, amet eaque unde perspiciatis adipisci possimus quam facere illo et quisquam quia earum nesciunt porro.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus quis quaerat non, iure nostrum delectus praesentium ullam quod corporis nisi?Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta dolor praesentium at quod autem omnis, amet eaque unde perspiciatis adipisci possimus quam facere illo et quisquam quia earum nesciunt porro.</p>
             </div>
         </div>
 
@@ -58,7 +58,7 @@
 
             <div class="card__content">
                 <h1 class="card__title">Nos tarifs</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta dolor praesentium at quod autem omnis, amet eaque unde perspiciatis adipisci possimus quam facere illo et quisquam quia earum nesciunt porro.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa quos laudantium distinctio fugiat harum dicta, non architecto ipsam. Delectus, similique!Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta dolor praesentium at quod autem omnis, amet eaque unde perspiciatis adipisci possimus quam facere illo et quisquam quia earum nesciunt porro.</p>
             </div>
         </div>
     </div>
