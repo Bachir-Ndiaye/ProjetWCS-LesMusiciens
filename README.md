@@ -17,7 +17,7 @@ Our goal at the end of the project will be to have :
 
 | Names  | Contact |
 | ------------- |:-------------:|
-| Amadou NDIAYE      | amadou.ndiaye@hotmail.com     |
+| Amadou NDIAYE      | amadou.n-diaye@hotmail.com     |
 | Benoit COUSIN     | cousinbenoit@hotmail.fr     |
 | Rémi JOUANNETAUD      |   remijouannetaud10@gmail.com   |
 
