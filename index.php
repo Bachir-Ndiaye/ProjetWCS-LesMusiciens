@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="./src/css/mobile-first.css">
 
     <!--Page title-->
-    <title>Acceuil - findXlyon </title>
+    <title>Acceuil | findXlyon </title>
    
 </head>
 <body>

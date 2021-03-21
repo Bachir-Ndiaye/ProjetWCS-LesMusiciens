@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
@@ -342,20 +341,10 @@ nav a:nth-child(1){
     text-align: center;
 }
 
-<<<<<<< HEAD
 .picture img {
     width: 300px;
     height: 250px;
     padding-bottom: 0.5rem;
-=======
-
-.imgblog {
-    width: 50%;
-    height: 80%;
-    margin: auto;
-    padding-bottom: 4%;
-    border-radius: 30px;
->>>>>>> d4e4e433b6a04fef760c3ec0c45c307824f4e7e5
 }
 
 .texte-picture h4 {
@@ -492,10 +481,6 @@ padding-right: 1rem;;
     }
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> d4e4e433b6a04fef760c3ec0c45c307824f4e7e5
 /* MEDIA QUARIES END */
 
 /* rejoindre start */ 
@@ -629,4 +614,3 @@ img {
     50% { opacity: 1; filter: blur(2px); }
     100% { transform: translateY(0) scale(1.0); opacity: 1; filter: blur(0); }
   }
-    

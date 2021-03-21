@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="./src/css/mobile-first.css">
 
     <!--Page title-->
-    <title>Qui sommes-nous ? - findXlyon </title>
+    <title>Qui sommes-nous ? | findXlyon </title>
    
 </head>
 <body>
