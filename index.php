@@ -19,8 +19,7 @@
 </head>
 <body>
     <!--Here header.php-->
-    <?php require './src/php/header.php' ; ?>
-    
+    <?php require './src/php/header.php'; ?>
     
     <!-- Here slider-->
     <div id="slider">
@@ -30,8 +29,7 @@
             <img src="./src/img/acceuil3.jpg"/>
             <img src="./src/img/acceuil2.jpg"/>
         </figure>
-        </div>
-    <!-- slider -->
+    </div>
 
     <!-- Here Events-->
     <div class="events">

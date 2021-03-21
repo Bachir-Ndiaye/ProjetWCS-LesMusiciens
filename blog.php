@@ -20,79 +20,90 @@
    <!--Here header.php-->
    <?php require './src/php/header.php'; ?>
    
-<h2>Blog</h2>
+<div class="main">
 
+<div class="blog-header">
+    <img src="./src/img/blog-header.jpeg" alt="Image blog header">
+    <h3>MUSIQUE, INSTRUMENTS, SOIRÉES PRIVÉES, GALA</h3>
+    <p>VOTRE BLOG 100% MUSIQUE</p>
+</div>
 <div class="picture-all">
-    <div class="picture">  
-            <div class="identity-picture-one">
-                <img src="../img/backshot-hipster-posant-guitare-acoustique_181624-30392.jpg" alt="musicien sur la plage">
-                <div class="texte-picture">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quasi vel assumenda quis reiciendis architecto quas eos dignissimos molestias? Commodi laboriosam, error ipsum eum natus praesentium suscipit velit nobis ratione deleniti totam earum eos adipisci atque ea. Quos, et ipsum. </p>
-                    <h5>Lire la suite</h5>
-                </div>
+    <div class="picture">
+            <div class="details-blog">
+                <p>GALA</p>
+                <p>BACHIR N.</p>
+                <p>15 JANVIER 2021</p>
+                <p><i class='fas fa-comment'></i> 10</p>
             </div>
+            <div class="identity-picture">
+                <img src="/src/img/backshot-hipster.jpg" alt="musicien sur la plage">
+            </div>   
+            <div class="texte-picture">
+                <p>Lorem ipsumus nobis aut rerum, expedita consequatur voluptatem. Labore, praesentium! Adipisci eaque, nam sint ipsum, eius totam ad pariatur tenetur quam atque illum! </p>
+                <h6>Lire la suite</h6>
+            </div>         
     </div>  
 
+    <div class="full-line"></div>
 
     <div class="picture">
-            <div class="identity-picture-two">
-                <img src="../img/batteur-professionnel-jouant-batterie-scene-fond-noir-baguettes-look-vintage-vue-dessus-effet-fumee_169016-4681.jpg" alt="batteur ">
-                <div class="texte-picture">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni laboriosam possimus quibusdam! Id voluptatibus quidem perferendis dolorum magni commodi harum odio mollitia sapiente recusandae? Praesentium voluptatibus placeat iure architecto obcaecati id quis at, eveniet, voluptates libero excepturi porro odit similique! </p>
-                    <h5>Lire la suite</h5>
-                </div>
+            <div class="details-blog">
+                <p>INSTRUMENTS</p>
+                <p>BENOIT</p>
+                <p>17 FEVRIER 2021</p>
+                <p><i class='fas fa-comment'></i> 40</p>
             </div>
- 
+            <div class="identity-picture">
+                <img src="/src/img/batteur-professionnel.jpg" alt="musicien sur la plage">
+            </div>   
+            <div class="texte-picture">
+                <p>Lorem ipsumus nobis aut rerum, expedita consequatur voluptatem. Labore, praesentium! Adipisci eaque, nam sint ipsum, eius totam ad pariatur tenetur quam atque illum! </p>
+                <h6>Lire la suite</h6>
+            </div>         
     </div>  
 
-
-
-    <div class="picture">
-            <div class="identity-picture-tree">
-                <img src="../img/deux-rappeurs-noirs-assis-marches_266732-13040.jpg" alt="deux rapeur">
-                <div class="texte-picture">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error, laborum asperiores at iure adipisci illo delectus ducimus molestiae in doloremque ex rem illum quia commodi, amet dolore optio consequuntur quaerat nisi esse reiciendis! Sapiente iure voluptatem enim repellat voluptas veniam. </p>
-                    <h5>Lire la suite</h5>
-                </div>
-            </div>
- 
-    </div>  
-
-
-    <div class="picture">
-            <div class="identity-picture-four">
-                <img src="../img/fille-punk-vetue-pantalon-cuir-noir-chemise-blanche-guitare-basse-rouge-endroit-abandonne_146538-364.jpg" alt="fille punk">
-                <div class="texte-picture">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore vero nesciunt rem hic. Nam sapiente quo excepturi blanditiis quia sint quod labore non eius inventore fuga recusandae quibusdam unde ad ipsa repellendus, quos, ab, consequatur totam illum eaque possimus! Eveniet! </p>
-                    <h5>Lire la suite</h5>
-                </div>
-            </div>
- 
-    </div>  
+    <div class="full-line"></div>
     
     <div class="picture">
-            <div class="identity-picture-five">
-                <img src="../img/musiciens-passionnes-celebrant-journee-du-jazz_23-2148877011.jpg" alt="musicien classic">
-                <div class="texte-picture">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit quibusdam minima labore harum, ratione doloremque. Reprehenderit qui iure rerum vero aspernatur ipsum. Cum qui eum illo fugiat odit odio sint accusamus repellendus iusto dignissimos, perspiciatis aspernatur aut corporis necessitatibus ullam! </p>
-                    <h5>Lire la suite</h5>
-                </div>
+            <div class="details-blog">
+                <p>MUSIQUE</p>
+                <p>REMI</p>
+                <p>15 MARS 2021</p>
+                <p><i class='fas fa-comment'></i> 15</p>
             </div>
+            <div class="identity-picture">
+                <img src="/src/img/deux-rappeurs.jpg" alt="musicien sur la plage">
+            </div>   
+            <div class="texte-picture">
+                <p>Lorem ipsumus nobis aut rerum, expedita consequatur voluptatem. Labore, praesentium! Adipisci eaque, nam sint ipsum, eius totam ad pariatur tenetur quam atque illum! </p>
+                <h6>Lire la suite</h6>
+            </div>         
     </div>  
 
+    <div class="full-line"></div>
 
     <div class="picture">
-            <div class="identity-picture-six">
-                <img src="../img/musiciens-rap-hip-hop-scene_79405-7150.jpg" alt="musicien hip hop">
-                <div class="texte-picture">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat debitis iure vitae unde quas odit officiis facilis enim laboriosam cumque ab quod explicabo eligendi architecto dicta veniam sunt quisquam laudantium voluptatibus animi, soluta aperiam ut amet consectetur. Dolore, dicta veniam. </p>
-                    <h5>Lire la suite</h5>
-                </div>
+            <div class="details-blog">
+                <p>CHANSONS</p>
+                <p>THOMAS</p>
+                <p>25 JUIN 2021</p>
+                <p><i class='fas fa-comment'></i> 40</p>
             </div>
+            <div class="identity-picture">
+                <img src="/src/img/musiciens-rap.jpg" alt="musicien sur la plage">
+            </div>   
+            <div class="texte-picture">
+                <p>Lorem ipsumus nobis aut rerum, expedita consequatur voluptatem. Labore, praesentium! Adipisci eaque, nam sint ipsum, eius totam ad pariatur tenetur quam atque illum! </p>
+                <h6>Lire la suite</h6>
+            </div>         
     </div>  
+
+</div>
+
 </div>
 
 <?php require './src/php/footer.php'; ?>
 <script type="text/javascript" src="./src/js/header.js"></script>
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </body>
 </html>
