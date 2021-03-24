@@ -789,14 +789,14 @@ img {
   }
   .infos-musician h4{
       font-weight: bold;
- 
+  }
   /* ==========================================================
   *
   *================= START css formulaire ======================
   *
   ============================================================*/
 
-  h1 {
+  .contact h1{
     text-align: center;
     font-size: 45;
     color: var(--light-blue);
