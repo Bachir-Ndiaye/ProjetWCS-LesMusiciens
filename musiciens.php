@@ -29,35 +29,35 @@
            </div>
 
            <div class="cards-musicians">
-                <img src="https://fakeimg.pl/250x150/">
+           <a href="musicians-style.php"><img src="./src/img/music-styles/soul.png"></a>
            </div>
 
            <div class="cards-musicians">
-                <img src="https://fakeimg.pl/250x150/">
+           <a href="musicians-style.php"><img src="./src/img/music-styles/pop.png"></a>
            </div>
 
            <div class="cards-musicians">
-                <img src="https://fakeimg.pl/250x150/">
+           <a href="musicians-style.php"><img src="./src/img/music-styles/punk.png"></a>
            </div>
 
            <div class="cards-musicians">
-                <img src="https://fakeimg.pl/250x150/">
+           <a href="musicians-style.php"><img src="./src/img/music-styles/rocknroll.png"></a>
            </div>
 
            <div class="cards-musicians">
-                <img src="https://fakeimg.pl/250x150/">
+           <a href="musicians-style.php"><img src="./src/img/music-styles/hiphop.png"></a>
            </div>
 
            <div class="cards-musicians">
-                <img src="https://fakeimg.pl/250x150/">
+           <a href="musicians-style.php"><img src="./src/img/music-styles/reggae.png"></a>
            </div>
 
            <div class="cards-musicians">
-                <img src="https://fakeimg.pl/250x150/">
+           <a href="musicians-style.php"><img src="./src/img/music-styles/afro.png"></a>
            </div>
 
            <div class="cards-musicians">
-                <img src="https://fakeimg.pl/250x150/">
+           <a href="musicians-style.php"><img src="./src/img/music-styles/funk.png"></a>
            </div>
            
        </div>      
