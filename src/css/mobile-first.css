@@ -207,6 +207,7 @@ nav a:nth-child(1){
     padding-bottom: 1rem;
     display: flex;
 }
+
 .subs-card{
     width: 450px;
     height: 170px;
@@ -339,6 +340,7 @@ nav a:nth-child(1){
     margin: auto;
     padding-top: 2rem;
     text-align: center;
+    overflow: scroll;
 }
 .full-line{
     margin-top: 2rem;
@@ -529,6 +531,17 @@ padding-right: 1rem;;
    
 }
 
+@media screen and (max-width: 450px){
+    .subs-card{
+        width: auto;
+        overflow: auto;
+    }
+    .card, .card1, .card2{
+        width: 90% !important;
+    }
+
+}
+
 /*==========================================================
   *
   *===================== Rejoignez-nous CSS ================
@@ -555,7 +568,9 @@ img {
     height: 100vh;
     background:var(--very-light-blue);
   }
-  
+ .card, .card1, .card2{
+     margin: 1rem 1rem;
+ } 
 .card 
     {
         position: relative;
@@ -772,3 +787,5 @@ img {
   .infos-musician h4{
       font-weight: bold;
   }
+
+  
