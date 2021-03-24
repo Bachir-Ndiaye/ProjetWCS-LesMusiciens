@@ -31,7 +31,7 @@
             <!--Amadou card-->
             <div class="card-team">
                 <div class="member">
-                    <img src="./src/img/team/bachir.jpg" alt="Image d'Amadou NDIAYE - Développeur web junior">
+                    <img src="./src/img/team/bachir.jpg" loading="lazy" alt="Image d'Amadou NDIAYE - Développeur web junior">
                 </div>
                 <div class="member-info">
                     <h4>Amadou NDIAYE</h4>
@@ -50,7 +50,7 @@
             <!--Benoit card-->
             <div class="card-team">
                 <div class="member">
-                    <img src="./src/img/team/benoit.jpg" alt="Image d'Amadou NDIAYE - Développeur web junior">
+                    <img src="./src/img/team/benoit.jpg" loading="lazy" alt="Image de Benoit COUSIN - Développeur web junior">
                 </div>
                 <div class="member-info">
                     <h4>Benoit COUSIN</h4>
@@ -69,7 +69,7 @@
             <!--Remi card-->
             <div class="card-team">
                 <div class="member">
-                    <img src="./src/img/team/remi.jpg" alt="Image d'Amadou NDIAYE - Développeur web junior">
+                    <img src="./src/img/team/remi.jpg" loading="lazy" alt="Image de Rémi JOUANNETAUD - Développeur web junior">
                 </div>
                 <div class="member-info">
                     <h4>Rémi  JOUANNETAUD</h4>

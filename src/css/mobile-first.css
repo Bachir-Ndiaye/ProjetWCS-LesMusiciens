@@ -74,7 +74,7 @@ nav a:nth-child(1){
     }
 
 .item-nav{
-    padding: 2rem 0rem;
+    padding: 0.5rem 0rem;
 }
 .liste-nav.active{
     height: 100vh;
@@ -340,7 +340,7 @@ nav a:nth-child(1){
     margin: auto;
     padding-top: 2rem;
     text-align: center;
-    overflow: scroll;
+    overflow: auto;
 }
 .full-line{
     margin-top: 2rem;

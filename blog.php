@@ -40,7 +40,7 @@
             </div>   
             <div class="texte-picture">
                 <p>Lorem ipsumus nobis aut rerum, expedita consequatur voluptatem. Labore, praesentium! Adipisci eaque, nam sint ipsum, eius totam ad pariatur tenetur quam atque illum! </p>
-                <h6>Lire la suite</h6>
+                <a href="https://soundssobeautiful.net/"><h6>Lire la suite</h6></a>
             </div>         
     </div>  
 
@@ -58,7 +58,7 @@
             </div>   
             <div class="texte-picture">
                 <p>Lorem ipsumus nobis aut rerum, expedita consequatur voluptatem. Labore, praesentium! Adipisci eaque, nam sint ipsum, eius totam ad pariatur tenetur quam atque illum! </p>
-                <h6>Lire la suite</h6>
+                <a href="https://soundssobeautiful.net/"><h6>Lire la suite</h6></a>
             </div>         
     </div>  
 
@@ -76,7 +76,7 @@
             </div>   
             <div class="texte-picture">
                 <p>Lorem ipsumus nobis aut rerum, expedita consequatur voluptatem. Labore, praesentium! Adipisci eaque, nam sint ipsum, eius totam ad pariatur tenetur quam atque illum! </p>
-                <h6>Lire la suite</h6>
+                <a href="https://soundssobeautiful.net/"><h6>Lire la suite</h6></a>
             </div>         
     </div>  
 
@@ -94,7 +94,7 @@
             </div>   
             <div class="texte-picture">
                 <p>Lorem ipsumus nobis aut rerum, expedita consequatur voluptatem. Labore, praesentium! Adipisci eaque, nam sint ipsum, eius totam ad pariatur tenetur quam atque illum! </p>
-                <h6>Lire la suite</h6>
+                <a href="https://soundssobeautiful.net/"><h6>Lire la suite</h6></a>
             </div>         
     </div>  
 

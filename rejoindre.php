@@ -14,7 +14,7 @@
 <div class="container">
   <div class="card">
         <div class="card__image-container">
-            <img class="card__image" src="https://images.unsplash.com/photo-1519999482648-25049ddd37b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2126&q=80" alt="">
+            <img class="card__image" loading="lazy" src="https://images.unsplash.com/photo-1519999482648-25049ddd37b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2126&q=80" alt="">
         </div>
 
                 <svg class="card__svg" viewBox="0 0 800 500">
@@ -32,7 +32,7 @@
 
         <div class="card1">
             <div class="card__image-container">
-                <img class="card__image" src="https://images.unsplash.com/photo-1519999482648-25049ddd37b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2126&q=80" alt="">
+                <img class="card__image" loading="lazy" src="https://images.unsplash.com/photo-1519999482648-25049ddd37b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2126&q=80" alt="">
             </div>
             <svg class="card__svg" viewBox="0 0 800 500">
 
@@ -48,7 +48,7 @@
 
         <div class="card2">
             <div class="card__image-container">
-                <img class="card__image" src="https://images.unsplash.com/photo-1519999482648-25049ddd37b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2126&q=80" alt="">
+                <img class="card__image" loading="lazy" src="https://images.unsplash.com/photo-1519999482648-25049ddd37b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2126&q=80" alt="">
             </div>
             <svg class="card__svg" viewBox="0 0 800 500">
 

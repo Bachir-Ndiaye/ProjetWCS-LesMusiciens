@@ -24,16 +24,16 @@
     <!-- Here slider-->
     <div id="slider">
         <figure>
-            <img src="./src/img/acceuil.jpg"/>
-            <img src="./src/img/acceuil1.jpg"/>
-            <img src="./src/img/acceuil3.jpg"/>
-            <img src="./src/img/acceuil2.jpg"/>
+            <img src="./src/img/acceuil.jpg" loading="lazy"/>
+            <img src="./src/img/acceuil1.jpg" loading="lazy"/>
+            <img src="./src/img/acceuil3.jpg" loading="lazy"/>
+            <img src="./src/img/acceuil2.jpg" loading="lazy"/>
         </figure>
     </div>
 
     <!-- Here Events-->
     <div class="events">
-        <h2>ÉVÈNEMENTS</h2>
+        <a href="https://www.lyon-france.com/l-agenda/Tous-les-evenements"><h2>ÉVÈNEMENTS</h2></a>
     </div>
 
     <!--Last subscribers-->
@@ -45,24 +45,24 @@
         
         <div class="subs-all-cards-container">
             <div class="subs-card">
-                <img src="./src/img/derniers-inscrits/ls-1.png" alt="Image of the last group who subscribe">
+                <img src="./src/img/derniers-inscrits/ls-1.png" alt="Image of the last group who subscribe" loading="lazy">
                 <div class="subs-card-right-grid">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit non eius molestias officiis minus aliquid?</p>
-                    <h5>Voir groupe</h5>
+                    <a href="https://soundssobeautiful.net/2018/06/12/jasual-cazz-travail-de-composition-defini-pour-une-imagination-infinie-interview/"><h5>Voir groupe</h5></a>
                 </div>
             </div>
             <div class="subs-card">
-                <img src="./src/img/derniers-inscrits/ls-2.png" alt="Image of the last group who subscribe">
+                <img src="./src/img/derniers-inscrits/ls-2.png" alt="Image of the last group who subscribe" loading="lazy">
                 <div class="subs-card-right-grid">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit non eius molestias officiis minus aliquid?</p>
-                    <h5>Voir groupe</h5>
+                    <a href="https://soundssobeautiful.net/2018/06/11/damoiseau-folie-gronde-plus-quun-album-cest-un-livre-interview/"><h5>Voir groupe</h5></a>
                 </div>
             </div>
             <div class="subs-card">
-                <img src="./src/img/derniers-inscrits/ls-3.png" alt="Image of the last group who subscribe">
+                <img src="./src/img/derniers-inscrits/ls-3.png" alt="Image of the last group who subscribe" loading="lazy">
                 <div class="subs-card-right-grid">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit non eius molestias officiis minus aliquid?</p>
-                    <h5>Voir groupe</h5>
+                    <a href="https://soundssobeautiful.net/2018/03/30/supa-dupa-vers-linfini-et-au-dela-evolution-du-groupe-avant-lenvol-interview/"><h5>Voir groupe</h5></a>
                 </div>
             </div>
         </div>
@@ -70,7 +70,7 @@
 
     <!-- Post announce or search for a groupe-->
     <div class="post-announce">
-        <h5>Déposer une annonce / Chercher un groupe</h5>
+        <a href="form.php"><h5>Déposer une annonce / Chercher un groupe</h5></a>
     </div>
 
     <!--Winner of the week (coup de coeur) -->
@@ -84,9 +84,9 @@
             </div>
         </div>
         <div class="imgs-versus">
-            <img class="img-v1" src="./src/img/versus/brooklyn.png" alt="Coup de coeur numero 1">
+            <img class="img-v1" src="./src/img/versus/brooklyn.png" alt="Coup de coeur numero 1" loading="lazy">
             <h3>VS</h3>
-            <img class="img-v2" src="./src/img/versus/lyon.png" alt="Coup de coeur numero 2">
+            <img class="img-v2" src="./src/img/versus/lyon.png" alt="Coup de coeur numero 2" loading="lazy">
         </div>
         <div class="star-btn">
             <button style="font-size:24px">Votez <i class="fa fa-star"></i></button>
@@ -97,16 +97,16 @@
     <!--Clients comments about musicians-->
     <div class="testimonials">
         <div class="card-testimonial">
-            <img src="./src/img/avis/avis-1.png">
+            <img src="./src/img/avis/avis-1.png" loading="lazy">
             <p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias maxime ulla. <i class="fa fa-quote-right"></i></p>
         </div>
         <div class="card-testimonial ct-right">
             <p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias maxime ulla. <i class="fa fa-quote-right"></i></p>
-            <img src="./src/img/avis/avis-2.jpg">
+            <img src="./src/img/avis/avis-2.jpg" loading="lazy">
         </div>
 
         <div class="card-testimonial">
-            <img src="./src/img/avis/avis-3.jpg">
+            <img src="./src/img/avis/avis-3.jpg" loading="lazy">
             <p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias maxime ulla. <i class="fa fa-quote-right"></i></p>
         </div>
     </div>

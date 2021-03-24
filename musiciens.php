@@ -25,39 +25,39 @@
        <div class="semiline"></div>
        <div class="cards-musicians-all">
            <div class="cards-musicians">
-                <a href="musicians-style.php"><img src="./src/img/music-styles/jazz.png"></a>
+                <a href="musicians-style.php"><img src="./src/img/music-styles/jazz.png" loading="lazy"></a>
            </div>
 
            <div class="cards-musicians">
-           <a href="musicians-style.php"><img src="./src/img/music-styles/soul.png"></a>
+           <a href="musicians-style.php"><img src="./src/img/music-styles/soul.png" loading="lazy"></a>
            </div>
 
            <div class="cards-musicians">
-           <a href="musicians-style.php"><img src="./src/img/music-styles/pop.png"></a>
+           <a href="musicians-style.php"><img src="./src/img/music-styles/pop.png" loading="lazy"></a>
            </div>
 
            <div class="cards-musicians">
-           <a href="musicians-style.php"><img src="./src/img/music-styles/punk.png"></a>
+           <a href="musicians-style.php"><img src="./src/img/music-styles/punk.png" loading="lazy"></a>
            </div>
 
            <div class="cards-musicians">
-           <a href="musicians-style.php"><img src="./src/img/music-styles/rocknroll.png"></a>
+           <a href="musicians-style.php"><img src="./src/img/music-styles/rocknroll.png" loading="lazy"></a>
            </div>
 
            <div class="cards-musicians">
-           <a href="musicians-style.php"><img src="./src/img/music-styles/hiphop.png"></a>
+           <a href="musicians-style.php"><img src="./src/img/music-styles/hiphop.png" loading="lazy"></a>
            </div>
 
            <div class="cards-musicians">
-           <a href="musicians-style.php"><img src="./src/img/music-styles/reggae.png"></a>
+           <a href="musicians-style.php"><img src="./src/img/music-styles/reggae.png" loading="lazy"></a>
            </div>
 
            <div class="cards-musicians">
-           <a href="musicians-style.php"><img src="./src/img/music-styles/afro.png"></a>
+           <a href="musicians-style.php"><img src="./src/img/music-styles/afro.png" loading="lazy"></a>
            </div>
 
            <div class="cards-musicians">
-           <a href="musicians-style.php"><img src="./src/img/music-styles/funk.png"></a>
+           <a href="musicians-style.php"><img src="./src/img/music-styles/funk.png" loading="lazy"></a>
            </div>
            
        </div>      
