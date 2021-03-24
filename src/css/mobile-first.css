@@ -496,7 +496,7 @@ padding-right: 1rem;;
 }
 
 /*MEDIA QUARIES PART*/
-@media screen and (max-width: 700px){
+@media screen and (max-width: 1100px){
     .logo-menu{ 
         display:flex;
     }
@@ -511,7 +511,7 @@ padding-right: 1rem;;
     }
 }
 
-@media screen and (min-width: 700px){
+@media screen and (min-width: 1100px){
     nav {
         display:flex;
     }

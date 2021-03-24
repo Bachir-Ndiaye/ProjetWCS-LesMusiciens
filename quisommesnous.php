@@ -38,9 +38,9 @@
                     <div class="line"></div>
                     <span>Développeur web junior</span>
                     <div class="social">
-                    <div class="linkedin"><a href=""><i class="fa fa-linkedin"></i>
+                    <div class="linkedin"><a href="https://www.linkedin.com/in/amadoubassiroundiaye/"><i class="fa fa-linkedin"></i>
 </a></div>
-                    <div class="github"><a href=""><i class="fa fa-github"></i>
+                    <div class="github"><a href="https://github.com/Bachir-Ndiaye"><i class="fa fa-github"></i>
 </a></div>
                 </div>
                 
@@ -57,9 +57,9 @@
                     <div class="line"></div>
                     <span>Développeur web junior</span>
                     <div class="social">
-                    <div class="linkedin"><a href=""><i class="fa fa-linkedin"></i>
+                    <div class="linkedin"><a href="https://www.linkedin.com/in/benoit-cousin-ab352a1b7/"><i class="fa fa-linkedin"></i>
 </a></div>
-                    <div class="github"><a href=""><i class="fa fa-github"></i>
+                    <div class="github"><a href="https://github.com/benoitCousin"><i class="fa fa-github"></i>
 </a></div>
                 </div>
                 
@@ -76,9 +76,9 @@
                     <div class="line"></div>
                     <span>Développeur web junior</span>
                     <div class="social">
-                    <div class="linkedin"><a href=""><i class="fa fa-linkedin"></i>
+                    <div class="linkedin"><a href="https://www.linkedin.com/in/remi-jouannetaud-a017971a0/"><i class="fa fa-linkedin"></i>
 </a></div>
-                    <div class="github"><a href=""><i class="fa fa-github"></i>
+                    <div class="github"><a href="https://github.com/Jouannetaud"><i class="fa fa-github"></i>
 </a></div>
                 </div>
                 
