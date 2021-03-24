@@ -31,7 +31,7 @@
             <!--Amadou card-->
             <div class="card-team">
                 <div class="member">
-                    <img src="https://fakeimg.pl/150x150/" alt="Image d'Amadou NDIAYE - Développeur web junior">
+                    <img src="./src/img/team/bachir.jpg" alt="Image d'Amadou NDIAYE - Développeur web junior">
                 </div>
                 <div class="member-info">
                     <h4>Amadou NDIAYE</h4>

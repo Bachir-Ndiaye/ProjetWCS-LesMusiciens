@@ -45,21 +45,21 @@
         
         <div class="subs-all-cards-container">
             <div class="subs-card">
-                <img src="https://fakeimg.pl/150x150/" alt="Image of the last group who subscribe">
+                <img src="./src/img/derniers-inscrits/ls-1.png" alt="Image of the last group who subscribe">
                 <div class="subs-card-right-grid">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit non eius molestias officiis minus aliquid?</p>
                     <h5>Voir groupe</h5>
                 </div>
             </div>
             <div class="subs-card">
-                <img src="https://fakeimg.pl/150x150/" alt="Image of the last group who subscribe">
+                <img src="./src/img/derniers-inscrits/ls-2.png" alt="Image of the last group who subscribe">
                 <div class="subs-card-right-grid">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit non eius molestias officiis minus aliquid?</p>
                     <h5>Voir groupe</h5>
                 </div>
             </div>
             <div class="subs-card">
-                <img src="https://fakeimg.pl/150x150/" alt="Image of the last group who subscribe">
+                <img src="./src/img/derniers-inscrits/ls-3.png" alt="Image of the last group who subscribe">
                 <div class="subs-card-right-grid">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit non eius molestias officiis minus aliquid?</p>
                     <h5>Voir groupe</h5>
@@ -84,9 +84,9 @@
             </div>
         </div>
         <div class="imgs-versus">
-            <img class="img-v1" src="https://fakeimg.pl/125x125/" alt="Coup de coeur numero 1">
+            <img class="img-v1" src="./src/img/versus/brooklyn.png" alt="Coup de coeur numero 1">
             <h3>VS</h3>
-            <img class="img-v2" src="https://fakeimg.pl/125x125/" alt="Coup de coeur numero 2">
+            <img class="img-v2" src="./src/img/versus/lyon.png" alt="Coup de coeur numero 2">
         </div>
         <div class="star-btn">
             <button style="font-size:24px">Votez <i class="fa fa-star"></i></button>
@@ -97,16 +97,16 @@
     <!--Clients comments about musicians-->
     <div class="testimonials">
         <div class="card-testimonial">
-            <img src="https://fakeimg.pl/50x50/">
+            <img src="./src/img/avis/avis-1.png">
             <p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias maxime ulla. <i class="fa fa-quote-right"></i></p>
         </div>
         <div class="card-testimonial ct-right">
             <p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias maxime ulla. <i class="fa fa-quote-right"></i></p>
-            <img src="https://fakeimg.pl/50x50/">
+            <img src="./src/img/avis/avis-2.jpg">
         </div>
 
         <div class="card-testimonial">
-            <img src="https://fakeimg.pl/50x50/">
+            <img src="./src/img/avis/avis-3.jpg">
             <p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias maxime ulla. <i class="fa fa-quote-right"></i></p>
         </div>
     </div>

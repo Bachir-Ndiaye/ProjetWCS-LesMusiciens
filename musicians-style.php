@@ -24,7 +24,6 @@
     <div class="jazz-all">
 
     <h2>Vos musiciens : JAZZ</h2>
-    <div class="semiline"></div>
     <div class="jazz">
         <div class="img-musician">
             <img src="./src/img/jazz/test.jpg">
