@@ -1,14 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-*, ::before, ::after{
-box-sizing: border-box;
-margin:0;
-padding:0;
-}
-body{
-    font-family: 'Montserrat' 'sans-serif';
-}
+
+
+
+    
+    
+    
+
 
 :root{
     --dark-blue : #1B1E3D;
@@ -19,6 +18,7 @@ body{
     --black : #000;
 }
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
@@ -499,7 +499,7 @@ padding-right: 1rem;;
 }
 
 /*MEDIA QUARIES PART*/
-@media screen and (max-width: 700px){
+@media screen and (max-width: 1100px){
     .logo-menu{ 
         display:flex;
     }
@@ -514,7 +514,7 @@ padding-right: 1rem;;
     }
 }
 
-@media screen and (min-width: 700px){
+@media screen and (min-width: 1100px){
     nav {
         display:flex;
     }
@@ -664,7 +664,7 @@ img {
       left: 0;
       top: 115px;
     }
-@media (max-width: 800px) 
+@media (max-width: 700px) 
     {
         .container 
         {
@@ -680,10 +680,10 @@ img {
             margin:10px auto 3rem;
         }
         .card1{
-            margin:3rem;
+            margin:3rem auto 3rem;
         }
         .card2{
-            margin:3rem auto 160px;
+            margin:3rem auto 3rem;
             
         }
     
