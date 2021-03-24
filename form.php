@@ -20,9 +20,16 @@
 <body>
 <?php require './src/php/header.php'; ?>
 <main class="contact">
-<div class="msg">    
-<?php   echo "Bonjour". " " . $_POST["firstname"] . ". Notre équipe de hacker vous recontacte dans les meilleurs délais."; ?>
-</div>
+
+       
+        <?php  if(isset($_POST['envoyer'])) 
+               {
+        ?>
+        <div class="msg"> 
+           <?php echo "Bonjour". " " . $_POST["firstname"] . ". Notre équipe de hacker vous recontacte dans les meilleurs délais."; ?>
+        </div>
+        <?php } ?>
+
 <h1>Formulaire d'inscription</h1>  
     
     
@@ -52,7 +59,7 @@
                 <textarea id="demande" name="demande" placeholder="Votre demande"></textarea>
             </p>
             <p>
-                <input id="button" type="submit" value="Envoyer"/>
+                <input id="button" type="submit" name="envoyer" value="Envoyer"/>
             </p>
         </form>
     </main>
