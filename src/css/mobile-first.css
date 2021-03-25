@@ -287,7 +287,7 @@ nav a:nth-child(1){
         margin: 0;
         padding: 0;
         font-size: 0;
-        animation: 25s slidy infinite;
+        animation: 12s slidy infinite;
     }
   #slider figure img 
   { width: 20%; height: auto; float: left; }
@@ -665,7 +665,8 @@ img {
         .container 
         {
           display:grid;
-          padding-top: 8rem;  
+          padding-top: 8rem;
+          padding-bottom: 6rem;  
           flex-direction: column;
           justify-content: center;
           background:var(--very-light-blue);
