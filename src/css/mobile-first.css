@@ -70,7 +70,7 @@ nav a:nth-child(1){
     }
 
 .item-nav{
-    padding: 0.5rem 0rem;
+    padding: 1rem 0rem;
 }
 .liste-nav.active{
     height: 100vh;
@@ -660,7 +660,7 @@ img {
       left: 0;
       top: 70px;
     }
-@media (max-width: 700px) 
+@media (max-width: 1290px) 
     {
         .container 
         {
@@ -762,7 +762,7 @@ img {
       margin: 1rem 1rem;
   }
   .rating, .reservation-number{
-      display: block ruby;
+      display: inline-flex;
   }
   .infos-musician{
       height: 130px;
@@ -840,7 +840,7 @@ textarea {
 .contact {
     background-color: var(--dark-blue);
     padding: 100px 0px;
-    
+    min-height: 100vh;
 }
 .msg {
     color: var(--white);
