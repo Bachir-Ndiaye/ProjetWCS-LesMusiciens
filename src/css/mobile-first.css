@@ -576,7 +576,7 @@ img {
         background: #333;
         width: 400px;
         height: 70vh;
-        border-radius: 6px;
+        border-radius: 10px;
         padding: 2rem;
         color: #aaa;
         box-shadow: 0 .25rem .25rem rgba(0,0,0,0.2),
@@ -594,7 +594,7 @@ img {
         background: #333;
         width: 400px;
         height: 70vh;
-        border-radius: 6px;
+        border-radius: 10px;
         padding: 2rem;
         color: #aaa;
         box-shadow: 0 .25rem .25rem rgba(0,0,0,0.2),
@@ -612,7 +612,7 @@ img {
         background: #333;
         width: 400px;
         height: 70vh;
-        border-radius: 6px;
+        border-radius: 10px;
         padding: 2rem;
         color: #aaa;
         box-shadow: 0 .25rem .25rem rgba(0,0,0,0.2),
@@ -658,7 +658,7 @@ img {
     {
       position: absolute;
       left: 0;
-      top: 115px;
+      top: 70px;
     }
 @media (max-width: 700px) 
     {
