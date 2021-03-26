@@ -287,7 +287,7 @@ nav a:nth-child(1){
         margin: 0;
         padding: 0;
         font-size: 0;
-        animation: 25s slidy infinite;
+        animation: 12s slidy infinite;
     }
   #slider figure img 
   { width: 20%; height: auto; float: left; }
@@ -576,7 +576,7 @@ img {
         background: #333;
         width: 400px;
         height: 70vh;
-        border-radius: 6px;
+        border-radius: 10px;
         padding: 2rem;
         color: #aaa;
         box-shadow: 0 .25rem .25rem rgba(0,0,0,0.2),
@@ -594,7 +594,7 @@ img {
         background: #333;
         width: 400px;
         height: 70vh;
-        border-radius: 6px;
+        border-radius: 10px;
         padding: 2rem;
         color: #aaa;
         box-shadow: 0 .25rem .25rem rgba(0,0,0,0.2),
@@ -612,7 +612,7 @@ img {
         background: #333;
         width: 400px;
         height: 70vh;
-        border-radius: 6px;
+        border-radius: 10px;
         padding: 2rem;
         color: #aaa;
         box-shadow: 0 .25rem .25rem rgba(0,0,0,0.2),
@@ -658,14 +658,15 @@ img {
     {
       position: absolute;
       left: 0;
-      top: 115px;
+      top: 70px;
     }
 @media (max-width: 1290px) 
     {
         .container 
         {
           display:grid;
-          padding-top: 8rem;  
+          padding-top: 8rem;
+          padding-bottom: 6rem;  
           flex-direction: column;
           justify-content: center;
           background:var(--very-light-blue);
