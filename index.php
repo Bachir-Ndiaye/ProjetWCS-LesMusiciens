@@ -70,7 +70,7 @@
 
     <!-- Post announce or search for a groupe-->
     <div class="post-announce">
-        <a href="form.php"><h5>Déposer une annonce / Chercher un groupe</h5></a>
+        <a href="form.php"><h5>Déposer une annonce / Chercher un groupe </h5></a>
     </div>
 
     <!--Winner of the week (coup de coeur) -->
@@ -80,7 +80,7 @@
             <div class="fa-centered">
                 <i class="fa fa-heart fa-vlb"></i>
                 <i class="fa fa-heart fa-lb" style="font-size:24px"></i>
-                <i class="fa fa-heart fa-b" style="font-size:36px;color:#1B1E3D"></i>
+                <i class="fa fa-heart fa-b" style="font-size:36px"></i>
             </div>
         </div>
         <div class="imgs-versus">

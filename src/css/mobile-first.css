@@ -184,7 +184,7 @@ nav a:nth-child(1){
 .events{
     background-color: var(--dark-blue);
     text-align: center;
-    margin: -1px;;
+    margin: -2px;
 }
 .events h2{
     padding: 1rem 1rem;
